@@ -15,9 +15,11 @@
   font-size: 17px;
   line-height: 26px;
   text-transform: uppercase;
-  box-shadow: 0 8px 6px -6px gray;
+  box-shadow: 0 8px 6px -6px rgb(15, 13, 13);
   --webkit-box-shadow: 0 8px 6px -6px gray;
   border-bottom: solid gray !important;
+  
+
 }
 
 .nav-link {
@@ -45,7 +47,7 @@
 .search-form button {
   background-color: #000000;
   border-radius: 0;
-  color: white;
+  color: rgb(238, 236, 236);
 }
 
 /* =============================
@@ -60,7 +62,7 @@
     #434343,
     #000000
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #131212);
 }
 
 .footer a {
