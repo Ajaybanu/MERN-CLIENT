@@ -20,6 +20,7 @@ import ProductDetails from "./pages/ProductDetails";
 import Categories from "./pages/Categories";
 import CartPage from "./pages/CartPage";
 import CategoryProduct from "./pages/CategoryProduct";
+import Profile from "./pages/user/Profile";
 
 
 
@@ -39,6 +40,7 @@ function App() {
       <Route path="/search" element={<Search />} />
         <Route path="/dashboard" element={<PrivateRoute />}>
           <Route path="user" element={<Dashboard />} />
+          <Route path="user/profile" element={<Profile />} />
         </Route>
         
         <Route path="/register" element={<Register />} />
