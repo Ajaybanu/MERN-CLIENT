@@ -12,14 +12,17 @@
 /* //navbar css */
 .navbar {
   font-family: "Poppins", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 26px;
   text-transform: uppercase;
-  box-shadow: 0 8px 6px -6px rgb(15, 13, 13);
-  --webkit-box-shadow: 0 8px 6px -6px gray;
-  border-bottom: solid gray !important;
+  box-shadow: 0 8px 6px -6px rgb(248, 14, 217);
+  --webkit-box-shadow: 0 8px 6px -6px rgb(231, 47, 47);
+  border-bottom: solid rgb(248, 14, 217) !important;
   
 
+}
+.bg-rose {
+  background-color: #eb1c94; /* Replace with the hex code or color value for rose */
 }
 
 .nav-link {
@@ -27,7 +30,7 @@
 }
 
 .active {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .navbar-brand {
@@ -42,12 +45,15 @@
 }
 .search-form input {
   border: none;
-  border-radius: 0;
+  border-radius: 20px;
+  height: 35px;
 }
 .search-form button {
-  background-color: #000000;
-  border-radius: 0;
-  color: rgb(238, 236, 236);
+  background-color: #eb1c94;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  height: 35px;
+  
 }
 
 /* =============================
@@ -62,7 +68,7 @@
     #434343,
     #000000
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #131212);
+  background: linear-gradient(to right, #615b5b, #f193cd);
 }
 
 .footer a {
@@ -73,7 +79,7 @@
 
 .footer a:hover {
   color: #ffefba;
-  border-bottom: 1px solid #ffefba;
+  border-bottom: 1px solid #000000;
 }
 /* =================================
 ======== page not found css ======= */

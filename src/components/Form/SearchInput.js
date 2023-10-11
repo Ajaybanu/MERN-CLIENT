@@ -26,6 +26,7 @@ const SearchInput = () => {
         onSubmit={handleSubmit}
       >
         <input
+     
           className="form-control me-2"
           type="search"
           placeholder="Search"
@@ -33,7 +34,7 @@ const SearchInput = () => {
           value={values.keyword}
           onChange={(e) => setValues({ ...values, keyword: e.target.value })}
         />
-        <button className="btn btn-outline-success" type="submit">
+        <button className="btn btn-outline-light" type="submit"  >
           Search
         </button>
       </form>
