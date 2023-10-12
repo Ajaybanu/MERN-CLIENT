@@ -110,7 +110,7 @@ const HomePage = () => {
     <Layout title={"ALl Products - Best offers "}>
       {/* banner image */}
       <img
-        src="/images/banner.png"
+        src="/images/newo.jpg"
         className="banner-img"
         alt="bannerimage"
         width={"100%"}
@@ -162,7 +162,7 @@ const HomePage = () => {
                 <div className="card-body">
                   <div className="card-name-price">
                     <h5 className="card-title">{p.name}</h5>
-                    <h5 className="card-title card-price">
+                    <h5 className="card-title card-price" style={{color:"black"}}>
                       {p.price.toLocaleString("en-US", {
                         style: "currency",
                         currency: "USD",

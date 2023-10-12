@@ -6,7 +6,7 @@ import SearchInput from "../Form/SearchInput";
 import useCategory from "../../hooks/useCategory";
 import { useCart } from "../../context/cart";
 import { Badge } from "antd";
-
+import {FcFlashOn } from "react-icons/fc";
 const Header = () => {
   const [auth, setAuth] = useAuth();
   const [cart] = useCart();
@@ -36,8 +36,9 @@ const Header = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <Link to="/" className="navbar-brand">
-              🛒 AJ 
+            <Link to="/" className="navbar-brand" style={{fontFamily:"-moz-initial"}}>
+            <FcFlashOn/>
+           AJ-TIMES
             </Link>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <SearchInput />

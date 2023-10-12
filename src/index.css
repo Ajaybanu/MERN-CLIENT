@@ -15,9 +15,9 @@
   font-size: 15px;
   line-height: 26px;
   text-transform: uppercase;
-  box-shadow: 0 8px 6px -6px rgb(248, 14, 217);
-  --webkit-box-shadow: 0 8px 6px -6px rgb(231, 47, 47);
-  border-bottom: solid rgb(248, 14, 217) !important;
+  box-shadow: 0 8px 6px -6px#eb1c94;
+  --webkit-box-shadow: 0 8px 6px -6px #eb1c94;
+  border-bottom: solid #eb1c94 !important;
   
 
 }
@@ -134,7 +134,7 @@
   text-transform: uppercase;
 }
 .cat-btn:hover {
-  background-color: #434343;
+  background-color:  #eb1c94;
   color: white;
 }
 /* ================
@@ -146,7 +146,7 @@
 }
 
 .dashboard-menu h4 {
-  background-color: #434343 !important;
+  background-color: #eb1c94 !important;
   color: white;
   padding: 20px 0px;
 }
