@@ -15,14 +15,14 @@
   font-size: 15px;
   line-height: 26px;
   text-transform: uppercase;
-  box-shadow: 0 8px 6px -6px#eb1c94;
-  --webkit-box-shadow: 0 8px 6px -6px #eb1c94;
-  border-bottom: solid #eb1c94 !important;
+  box-shadow: 0 8px 6px -6px#90eb386e;
+  --webkit-box-shadow: 0 8px 6px -6px #90eb386e;
+  border-bottom: solid#90eb386e !important;
   
 
 }
 .bg-rose {
-  background-color: #eb1c94; /* Replace with the hex code or color value for rose */
+  background-color:#90eb386e; /* Replace with the hex code or color value for rose */
 }
 
 .nav-link {
@@ -49,7 +49,7 @@
   height: 35px;
 }
 .search-form button {
-  background-color: #eb1c94;
+  background-color:#90eb386e;
   border-radius: 20px;
   color: rgb(0, 0, 0);
   height: 35px;
@@ -68,7 +68,7 @@
     #434343,
     #000000
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #615b5b, #f193cd);
+  background: linear-gradient(to right, #615b5b,#90eb386e);
 }
 
 .footer a {
@@ -134,7 +134,7 @@
   text-transform: uppercase;
 }
 .cat-btn:hover {
-  background-color:  #eb1c94;
+  background-color: #90eb386e;
   color: white;
 }
 /* ================
@@ -146,7 +146,7 @@
 }
 
 .dashboard-menu h4 {
-  background-color: #eb1c94 !important;
+  background-color:#90eb386e !important;
   color: white;
   padding: 20px 0px;
 }

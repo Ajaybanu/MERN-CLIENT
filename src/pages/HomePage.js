@@ -182,7 +182,7 @@ const HomePage = () => {
                     </button>
                     <button
                       className="btn  ms-1"
-                      style={{backgroundColor:" #eb1c94"}}
+                      style={{backgroundColor:"rgb(107 163 50)"}}
                       onClick={() => {
                         setCart([...cart, p]);
                         localStorage.setItem(

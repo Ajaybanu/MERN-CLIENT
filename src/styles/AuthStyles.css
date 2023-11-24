@@ -7,14 +7,14 @@
     justify-content: center;
     min-height: 70vh;
     flex-direction: column;
-    background-color: #dd195b;
+    background-color:#90eb386e;
     background-image: linear-gradient(0deg, #ffdee9 0%, #ffdee9 0%);
   }
   
   .form-container form {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 20px;
-    background-color:  #eb1c94 ;
+    background-color:#90eb386e ;
     border-radius: 40px;
   }
   

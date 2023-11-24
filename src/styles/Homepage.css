@@ -22,7 +22,7 @@
   }
   
   .home-page .card-price {
-    color: rgb(245, 47, 47);
+    color:#90eb386e ;
     font-weight: bold;
   }
   .home-page button {
@@ -67,7 +67,7 @@
   }
   
   .filters button {
-    background-color: #eb1c94;
+    background-color:rgb(107 163 50);
     width: 100%;
     border: none;
     border-radius: 0;
@@ -75,7 +75,7 @@
   }
   
   .loadmore {
-    color: #eb1c94;
+    color:rgb(107 163 50);
     font-weight: bold;
     font-size: 20px !important;
   }

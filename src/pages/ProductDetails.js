@@ -62,7 +62,7 @@ const ProductDetails = () => {
             })}
           </h6>
           <h6>Category : {product?.category?.name}</h6>
-          <button class="btn btn-secondary ms-1"  style={{backgroundColor:" #eb1c94"}}>ADD TO CART</button>
+          <button class="btn btn-secondary ms-1"  style={{backgroundColor:"rgb(107 163 50)"}}>ADD TO CART</button>
         </div>
       </div>
       <hr />
@@ -95,7 +95,7 @@ const ProductDetails = () => {
                 <div className="card-name-price">
                   <button
                     className="btn btn-info ms-1"
-                     style={{backgroundColor:" #eb1c94"}}
+                     style={{backgroundColor:" rgb(107 163 50)"}}
                     onClick={() => navigate(`/product/${p.slug}`)}
                   >
                     More Details
